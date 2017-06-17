@@ -1,0 +1,5 @@
+.ruby-version
+.sass-cache
+_site
+*.swp
+*.swo
