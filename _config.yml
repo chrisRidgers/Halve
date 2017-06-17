@@ -1,9 +1,10 @@
 # Site
 title: Chris Ridgers 
 description: Just another damn blog from a guy on the internet.
-url: http://chris.digiridge.co.uk
+url: https://chrisridgers.github.io/Halve/
 logo: logo.png                                       # Site logo
 locale: en_GB
+theme: Halve
 
 # Left Block Images
 background:
