@@ -1,1 +1,1 @@
-Sitemap: https://chrisridgers.github.io/Halve//sitemap.xml
+Sitemap: https://chrisridgers.github.io//sitemap.xml
