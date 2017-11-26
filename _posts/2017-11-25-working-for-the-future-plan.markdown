@@ -6,6 +6,7 @@ date: 2017-11-25T21:06:35+00:00
 ---
 
 # Working for the Future
+
 I recently returned from a trip sailing up the coast of Norway.  Besides the
 spectacular views, it offered a great opportunity to reflect on where I am right
 now in life and where I would like to progress to in future.
@@ -23,6 +24,7 @@ plan for my return.
 So before looking forward, let us look back.
 
 ## What kind of person am I?
+
 I am not what you would call a 'social person'.
 I remember sitting in the car at 16 years old talking with Mum about the future
 and saying, "I don't know what I want to do.  But I do know I don't want it to
@@ -81,6 +83,7 @@ acknowledged that somebody out there made this stuff for money.  That is me
 though, it still is.  The anti-consumer consumer.
 
 ## So what about the future?
+
 For a while I have been considering the way I
 treat money.  For the past 3 years I have been treating my money in the same
 way I treat my emails.  Always working from zero base.  Just as I would always
