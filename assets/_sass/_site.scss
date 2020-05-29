@@ -109,7 +109,8 @@ canvas {
   width: 20px;
   height: 25px;
   border: 2px solid $gray;
-  background: $white;
+  border-color: rgb(60,60,60);
+  background-color: rgb(24,26,26);
   &:before {
     content: '';
     width: 20px;
@@ -118,7 +119,9 @@ canvas {
     right: 2px;
     border: 2px solid $gray;
     top: 2px;
-    background: $white;
+    //background: $testColor;
+    border-color: rgb(60,60,60);
+    background-color: rgb(24,26,26);
   }
   &:after {
     content: '';
@@ -128,7 +131,9 @@ canvas {
     position: absolute;
     right: 6px;
     top: 6px;
-    background: $white;
+    //background: $testColor;
+    border-color: rgb(60,60,60);
+    background-color: rgb(24,26,26);
   }
   &:hover {
     border-color: $red;
@@ -389,7 +394,7 @@ canvas {
 }
 
 .main-info {
-  color: $white;
+  color: rgb(206,203,196);
   h1 {
     font-weight: bold;
     text-transform: uppercase;
@@ -411,7 +416,8 @@ canvas {
   h1,
   h2 {
     font-size: 35px;
-    color: lighten($black, 27.8431);
+    //color: lighten($black, 27.8431);
+    color: rgb(206,203,196);
     &:after {
       position: absolute;
       left: auto;
@@ -427,7 +433,8 @@ canvas {
     }
   }
   p {
-    color: darken($white, 40);
+    //color: darken($white, 40);
+    color: darken($testColor, 20);
     font-size: 16px;
     margin: 10px 0;
     padding-top: 0;
@@ -482,7 +489,7 @@ canvas {
   > li {
     margin-bottom: 23px;
     padding-bottom: 20px;
-    border-bottom: 1px solid darken($white, 8.2353);
+    border-bottom: 1px solid darken($testColor, 50);
     list-style: none;
     &:last-child {
       border: none;
@@ -492,7 +499,7 @@ canvas {
       margin-bottom: 15px;
     }
     p {
-      color: darken($white, 40);
+      color: darken($testColor, 20);
     }
     .date {
       color: #399f62;
@@ -549,12 +556,12 @@ canvas {
   h5,
   h6 {
     font-weight: bold;
-    color: rgba($overlay-color, 0.7);
+    color: rgba($testColor, 0.7);
   }
   p {
     font-size: 18px;
     line-height: 1.6;
-    color: #6c6c6c;
+    color: darken($testColor, 20);
     margin-bottom: 1.3em;
   }
   small {
@@ -838,7 +845,8 @@ canvas {
     min-width: 5.5em;
     font-size: 0.8em;
     font-weight: 400;
-    background-color: darken($white, 5%);
+    //background-color: darken($white, 5%);
+    background-color: rgb(48, 51, 53);
     color: darken($white, 35%) !important;
     text-align: center;
     white-space: nowrap;
@@ -860,12 +868,14 @@ canvas {
       color: $white !important;
     }
     &.disabled {
-      background-color: darken($white, 3%);
-      color:darken($white, 15%) !important;
-      &:hover {
-        background-color: darken($white, 3%);
-        color:darken($white, 15%) !important;
-      }
+      //background-color: darken($white, 3%);
+      background-color: $testBackground;
+      //color:darken($white, 15%) !important;
+      color: $testBackground !important;
+      //&:hover {
+       // background-color: darken($white, 3%);
+        //color:darken($white, 15%) !important;
+      //}
     }
   }
 }

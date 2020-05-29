@@ -27,12 +27,16 @@ body {
 
 body {
   font-family: $base-font;
-  color: $overlay-color;
-  background: $white;
+  //color: $overlay-color;
+  //background: $white;
+  background-color: $testBackground;
+  border-color: $testBorderColor;
+  color: $testColor;
 }
 
 a {
-  color: $overlay-color;
+  //color: $overlay-color;
+  color: $testLinkColor;
   outline: none;
   text-decoration: none
 }
@@ -41,12 +45,13 @@ a:hover,
 a:active,
 a:focus,
 a:visited {
-  color: $overlay-color
+  color: $testLinkColor;
 }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0
+  border-spacing: 0;
+  border-color: $testBorderColor;
 }
 
 caption,
